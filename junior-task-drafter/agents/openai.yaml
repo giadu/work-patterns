@@ -1,0 +1,4 @@
+interface:
+  display_name: "Junior Task Drafter"
+  short_description: "Draft execution-ready tasks for junior engineers"
+  default_prompt: "Use $junior-task-drafter to turn rough requirements into an execution-ready task for a junior engineer, with clear scope, constraints, and learning checkpoints."

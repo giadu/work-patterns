@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delivery Slice"
+  short_description: "Ship the smallest mergeable slice first"
+  default_prompt: "Use $delivery-slice to scope a feature as the smallest mergeable vertical slice before building broader abstractions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Judgment Check"
+  short_description: "Pressure-test product judgment before coding"
+  default_prompt: "Use $product-judgment-check to review a feature before implementation and surface product, data, and operational risks."

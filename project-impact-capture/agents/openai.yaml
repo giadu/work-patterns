@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Impact Capture"
+  short_description: "Capture project impact before details fade"
+  default_prompt: "Use $project-impact-capture to turn a completed feature, project, or task into reusable evidence for interviews, resume bullets, and public-safe stories."
