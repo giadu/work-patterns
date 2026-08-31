@@ -1,0 +1,4 @@
+interface:
+  display_name: "Systems Integrity Review"
+  short_description: "Review production integrity before merge"
+  default_prompt: "Use $systems-integrity-review to review this design or change for scope, data, async, operations, rollout, and test risks."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Contract Spec"
+  short_description: "Define imports, exports, events, and payload contracts"
+  default_prompt: "Use $data-contract-spec to turn this data exchange requirement into a reviewable contract with fields, validation, examples, and acceptance criteria."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Catalog Crawler Builder"
+  short_description: "Build reliable product catalog crawlers"
+  default_prompt: "Use $catalog-crawler-builder to design or implement a crawler for this catalog source, including identity, variants, validation, and safe collection."

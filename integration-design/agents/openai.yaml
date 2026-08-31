@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integration Design"
+  short_description: "Design reliable external integrations"
+  default_prompt: "Use $integration-design to turn this integration request into a workflow, data ownership, sync, recovery, and onboarding design."

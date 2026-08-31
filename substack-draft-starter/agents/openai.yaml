@@ -1,0 +1,4 @@
+interface:
+  display_name: "Substack Draft Starter"
+  short_description: "Draft a technical post from live work notes"
+  default_prompt: "Use $substack-draft-starter to turn a technical idea I am working on into a Substack-ready draft."

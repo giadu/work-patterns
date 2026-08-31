@@ -7,7 +7,7 @@ description: Turn a completed feature, project, issue, or delivery slice into re
 
 ## Overview
 
-Use this skill right after a meaningful piece of work ships, stabilizes, or teaches you something important. The goal is to capture decisions, tradeoffs, impact, and your actual contribution while the details are still fresh, then convert that into reusable career evidence.
+Use this skill right after a meaningful piece of work ships, stabilizes, or teaches you something important. The goal is to capture decisions, tradeoffs, impact, and your actual contribution while the details are still fresh, then convert that into reusable career evidence without carrying employer-confidential source material into personal records.
 
 ## Core rule
 
@@ -28,7 +28,17 @@ Do not use it for:
 
 ## Workflow
 
-### 1. Start from raw facts
+### 1. Classify evidence before capturing it
+
+Separate inputs into three classes before writing an output:
+
+- **Employer-confidential evidence:** private issue/PR links, code, comments, schemas, customer or employee data, internal metrics, incidents, roadmap, credentials, and non-public architecture. Use this only inside the employer environment as a temporary evidence index. Do not copy it into a personal directory, public repository, portfolio, or CV artifact.
+- **Career-safe facts:** the general problem class, your role, decisions, tradeoffs, technical scope, qualitative outcome, and lessons. These can be retained privately if they do not expose employer-confidential detail.
+- **Public facts:** information already public and authorized for external use.
+
+When in doubt, treat an input as employer-confidential. Read [evidence-boundaries.md](references/evidence-boundaries.md) when the work came from a private repository, internal tool, or customer system.
+
+### 2. Start from raw facts
 
 First collect the concrete inputs that still exist:
 - issue, ticket, PR, or spec links
@@ -38,7 +48,7 @@ First collect the concrete inputs that still exist:
 
 If the available evidence is thin, still capture the story now and explicitly mark what evidence is missing.
 
-### 2. Separate the real problem from the implementation
+### 3. Separate the real problem from the implementation
 
 Write down:
 - what problem existed before the work
@@ -47,7 +57,7 @@ Write down:
 
 Avoid starting with implementation details. Start with why the work mattered.
 
-### 3. Isolate your actual contribution
+### 4. Isolate your actual contribution
 
 Be precise about:
 - what you owned directly
@@ -57,7 +67,7 @@ Be precise about:
 
 Do not inflate ownership. Clear partial ownership is stronger than vague full ownership.
 
-### 4. Capture what was genuinely difficult
+### 5. Capture what was genuinely difficult
 
 Name the real hard part. Usually it is not "I wrote the code."
 
@@ -71,7 +81,7 @@ Examples:
 - scope control under ambiguity
 - getting something shippable without overengineering
 
-### 5. Record decisions and tradeoffs
+### 6. Record decisions and tradeoffs
 
 Capture:
 - what you chose to include now
@@ -81,7 +91,7 @@ Capture:
 
 This is often the most valuable part for interviews and seniority evidence.
 
-### 6. Capture impact and missing proof
+### 7. Capture impact and missing proof
 
 Record impact in whatever form is honest and available:
 - user impact
@@ -93,13 +103,23 @@ Record impact in whatever form is honest and available:
 
 If metrics are unknown, capture qualitative evidence and write down what you should still gather later.
 
-### 7. Produce reusable output variants
+### 8. Produce separate internal and career-safe outputs
+
+When raw evidence came from an employer system, produce two deliberately separate artifacts:
+
+- **Internal evidence index:** raw links, references, exact data, or reviewer context. Keep it only in the employer environment for handover, internal self-review, or verification. It is not a personal artifact.
+- **Career-safe record:** a private summary that contains no raw references or confidential detail. This is the input for CV, LinkedIn, interviews, compensation discussions, and future writing.
+
+Do not use a single document for both purposes.
+
+### 9. Produce reusable career-safe variants
 
 Convert the same work into multiple forms:
 - interview story
 - resume bullet drafts
 - self-review / promotion note
-- public-safe summary
+- career-safe summary
+- public-writing summary
 - substack or portfolio angle if appropriate
 
 Use `references/capture-template.md` as the main output structure.
@@ -114,7 +134,9 @@ Use `references/output-variants.md` when converting the same project into differ
 - Distinguish impact from implementation.
 - Separate your contribution from team contribution.
 - Mark uncertainty honestly instead of smoothing it over.
-- If something is confidential, write a public-safe version rather than omitting the story entirely.
+- Never include employer-confidential evidence in a career-safe artifact.
+- If something is confidential, retain the decision and lesson in generalized language rather than copying the underlying evidence.
+- Do not turn activity volume, PR counts, lines changed, or internal delivery metrics into external impact claims unless their use is authorized and the claim is meaningful.
 
 ## Useful prompts
 
@@ -128,5 +150,6 @@ Ask questions like:
 ## Resources
 
 - [references/capture-template.md](references/capture-template.md)
+- [references/evidence-boundaries.md](references/evidence-boundaries.md)
 - [references/evidence-prompts.md](references/evidence-prompts.md)
 - [references/output-variants.md](references/output-variants.md)

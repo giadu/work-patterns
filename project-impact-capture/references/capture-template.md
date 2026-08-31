@@ -1,12 +1,18 @@
 # Capture Template
 
 ```md
+## evidence classification
+
+- employer-confidential evidence used only for verification (do not copy here if this is a personal record):
+- career-safe facts retained:
+- public facts, if any:
+
 ## basic info
 
 - project / feature:
 - date or period:
 - company / team:
-- issue / PR / spec references:
+- internal references (internal evidence index only):
 
 ## why it mattered
 
@@ -55,7 +61,11 @@
 
 ## missing evidence to collect later
 
-- <metric, screenshot, stakeholder quote, adoption signal, etc.>
+- <permitted metric, public signal, or qualitative outcome to verify later>
+
+## career-safe summary
+
+<A private record suitable for CV, LinkedIn, interviews, and career planning. Remove private links, names, identifiers, code details, internal metrics, and roadmap context.>
 
 ## interview-safe story
 
@@ -70,13 +80,14 @@
 
 <how this demonstrates seniority, scope, ownership, or leverage>
 
-## public-safe notes
+## public-writing summary
 
-<what can be said safely without internal details>
+<A more abstract version suitable for a public article, portfolio, or GitHub.>
 ```
 
 ## Notes
 
-- if metrics are missing, capture the qualitative result and note what should be gathered later
+- keep raw evidence in a separate employer-only index; do not place it in a personal career record
+- if metrics are missing, capture the qualitative result and note what permitted evidence should be gathered later
 - if ownership was shared, say so clearly
 - if the work is still evolving, capture what is stable now and mark the open parts
