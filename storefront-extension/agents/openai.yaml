@@ -1,0 +1,4 @@
+interface:
+  display_name: "Storefront Extension"
+  short_description: "Extend third-party storefronts safely"
+  default_prompt: "Use $storefront-extension to design this storefront widget or behavior without breaking host rendering, interaction, mobile, or analytics."

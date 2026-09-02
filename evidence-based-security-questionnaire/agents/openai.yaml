@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence-Based Security Questionnaire"
+  short_description: "Answer B2B security questionnaires accurately"
+  default_prompt: "Use $evidence-based-security-questionnaire to prepare a reviewable response to this customer security questionnaire from verified evidence."

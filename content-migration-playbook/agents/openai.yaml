@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Migration Playbook"
+  short_description: "Plan safe content and media migrations"
+  default_prompt: "Use $content-migration-playbook to plan this content migration, including identity mapping, media, validation, and recovery."

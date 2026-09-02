@@ -14,6 +14,9 @@ Each pattern is meant to be simple, reusable, and grounded in real implementatio
 - `data-contract-spec` - define a reviewable contract for imports, exports, files, events, and API payloads
 - `integration-design` - turn an external connection request into a reliable workflow, sync, recovery, and onboarding design
 - `catalog-crawler-builder` - build catalog crawlers with deliberate identity, variant, validation, and source-access decisions
+- `evidence-based-security-questionnaire` - answer B2B security questionnaires from verified evidence without overclaiming controls
+- `content-migration-playbook` - plan content, media, and identity migrations with validation and recovery
+- `storefront-extension` - extend storefronts safely across DOM lifecycle, interaction, mobile, and analytics boundaries
 - `junior-task-drafter` - turn rough context into execution-ready tasks for junior engineers
 - `project-impact-capture` - turn shipped work into reusable evidence for interviews, CVs, and public-safe stories
 - `substack-draft-starter` - turn technical observations into voice-preserving, sensitivity-checked writing drafts
