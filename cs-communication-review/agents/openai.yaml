@@ -1,0 +1,4 @@
+interface:
+  display_name: "CS Communication Review"
+  short_description: "Make technical explanations clear for CS"
+  default_prompt: "Use $cs-communication-review to rewrite this technical explanation so CS can understand the conclusion, uncertainty, and next action."
