@@ -9,7 +9,9 @@ Each pattern is meant to be simple, reusable, and grounded in real implementatio
 ## Current patterns
 
 - `product-judgment-check` - pressure-test product, domain, and operational decisions before building
+- `ai-feature-readiness-check` - assess AI feature evidence, evaluation criteria, autonomy limits, and readiness for a pilot or release
 - `delivery-slice` - define the smallest mergeable version of a change
+- `delegation-loop` - prepare bounded handoffs for people or agents and verify returned work against agreed outcomes
 - `systems-integrity-review` - review implementation integrity across scope, state, data, async work, rollout, and tests
 - `data-contract-spec` - define a reviewable contract for imports, exports, files, events, and API payloads
 - `integration-design` - turn an external connection request into a reliable workflow, sync, recovery, and onboarding design

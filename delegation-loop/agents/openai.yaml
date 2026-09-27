@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delegation Loop"
+  short_description: "Prepare bounded handoffs and verify returned work"
+  default_prompt: "Use $delegation-loop to turn this work into a clear handoff with autonomy boundaries and concrete acceptance evidence."

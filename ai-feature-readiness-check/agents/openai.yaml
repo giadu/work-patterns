@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Feature Readiness Check"
+  short_description: "Assess AI feature evidence, limits, and release readiness"
+  default_prompt: "Use $ai-feature-readiness-check to assess this AI feature and recommend its next stage with concrete evidence gaps and evaluation criteria."
