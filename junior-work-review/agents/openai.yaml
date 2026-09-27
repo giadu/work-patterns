@@ -1,0 +1,4 @@
+interface:
+  display_name: "Junior Work Review"
+  short_description: "Review junior work with evidence and focused coaching"
+  default_prompt: "Use $junior-work-review to review this submission, separate required fixes from learning questions, and draft actionable feedback."

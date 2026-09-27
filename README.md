@@ -20,6 +20,7 @@ Each pattern is meant to be simple, reusable, and grounded in real implementatio
 - `content-migration-playbook` - plan content, media, and identity migrations with validation and recovery
 - `storefront-extension` - extend storefronts safely across DOM lifecycle, interaction, mobile, and analytics boundaries
 - `junior-task-drafter` - turn rough context into execution-ready tasks for junior engineers
+- `junior-work-review` - review junior designs and implementations with evidence-backed findings and focused coaching
 - `project-impact-capture` - turn shipped work into reusable evidence for interviews, CVs, and public-safe stories
 - `substack-draft-starter` - turn technical observations into voice-preserving, sensitivity-checked writing drafts
 
