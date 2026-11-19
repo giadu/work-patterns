@@ -8,6 +8,8 @@ Each pattern is meant to be simple, reusable, and grounded in real implementatio
 
 ## Current patterns
 
+- `project-boss-setup` - prepare a project coordination chat with a clear remit, verified sources, and one durable project note across coding agents
+
 - `product-judgment-check` - pressure-test product, domain, and operational decisions before building
 - `ai-feature-readiness-check` - assess AI feature evidence, evaluation criteria, autonomy limits, and readiness for a pilot or release
 - `delivery-slice` - define the smallest mergeable version of a change
@@ -21,6 +23,8 @@ Each pattern is meant to be simple, reusable, and grounded in real implementatio
 - `storefront-extension` - extend storefronts safely across DOM lifecycle, interaction, mobile, and analytics boundaries
 - `junior-task-drafter` - turn rough context into execution-ready tasks for junior engineers
 - `junior-work-review` - review junior designs and implementations with evidence-backed findings and focused coaching
+- `task-learning-review` - extract lessons from completed work, propose workflow experiments, and surface optional writing ideas
+- `task-closeout` - close merged and deployed work, capture career-safe learning, and clean up authorised task resources across coding agents
 - `project-impact-capture` - turn shipped work into reusable evidence for interviews, CVs, and public-safe stories
 - `substack-draft-starter` - turn technical observations into voice-preserving, sensitivity-checked writing drafts
 
@@ -46,4 +50,8 @@ work-patterns/
 
 ## Notes
 
-These patterns are written in a Codex skill format because that is a convenient packaging unit, but the underlying ideas are tool-agnostic. They are intended to stay understandable even outside one specific agent or vendor ecosystem.
+These patterns use the open Agent Skills format. Their instructions describe outcomes, evidence, required capabilities and boundaries without depending on a particular agent or vendor.
+
+Client-specific tool names, hooks, local paths and personal permissions belong in the user's local setup, outside this repository. A pattern checks the capabilities actually available and explains any missing step rather than assuming a particular tool exists.
+
+Optional UI metadata in `agents/` supports discovery in compatible clients. It is not required to understand or execute a pattern and must not contain the only copy of operational instructions.

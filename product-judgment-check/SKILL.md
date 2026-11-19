@@ -21,6 +21,18 @@ Start by summarizing:
 
 If the request is too implementation-shaped, restate it in user and product terms first.
 
+### Before polishing a prototype: check the intended experience
+
+For a new user-facing flow or prototype, separate the user need from the chosen interaction pattern. A need for guidance does not by itself establish that users need a fixed sequence; suggested actions can exist in several interface types. Do not infer a preferred UI from technical literacy alone, or assume a newer-looking pattern is better.
+
+Before investing in detailed copy, branches, or visual polish:
+- State the experience or decision this prototype should help validate.
+- Identify what the actual interaction communicates through its structure, navigation, visible context, and available user actions. Judge the behaviour, not the label given to the prototype.
+- If those signals conflict with the intended experience, surface the mismatch and compare a plausible alternative before extending the flow.
+- Distinguish deliberate product choices from shortcuts used to make the prototype quickly. Make material shortcuts clear to reviewers; a scripted interaction can validate presentation without proving open-ended capability.
+
+Use a few sentences or a rough walkthrough when that is sufficient. Do not require multiple variants, a separate document, or approval for routine edits. Treat feedback as evidence to examine, not an automatic instruction to adopt the newest interface pattern.
+
 ### 2. Run the five lenses
 
 Check the work through these five lenses before proposing implementation details.
