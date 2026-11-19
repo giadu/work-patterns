@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Learning Review"
+  short_description: "Turn completed work into lessons and workflow experiments"
+  default_prompt: "Use $task-learning-review to reflect on this completed task, identify evidence-backed lessons, propose a small workflow improvement, and surface a Substack idea if warranted."

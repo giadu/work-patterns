@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preparar boss de proyecto"
+  short_description: "Prepara alcance, fuentes y continuidad del boss"
+  default_prompt: "Usa $project-boss-setup para preparar este chat como boss del proyecto, verificar sus fuentes y crear o reutilizar su nota única."
