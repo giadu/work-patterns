@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cierre de tarea"
+  short_description: "Cierra tras merge y deploy, captura aprendizaje y limpia worktree, ramas, Docker, temporales y chat"
+  default_prompt: "Usa $task-closeout para verificar merge y despliegue, cerrar la nota operativa, generar mi nota personal con project-impact-capture y limpiar los recursos exclusivos autorizados (worktree, ramas locales integradas, contenedores/volúmenes de la tarea, temporales de sesión y chat de la tarea)."
